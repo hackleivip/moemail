@@ -18,12 +18,12 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: `
               var _51la = _51la || [];
-              _51la.push(["_sid", "你的ID"]);
+              _51la.push(["_sid", "22002147"]);
               (function() {
                 var la = document.createElement("script");
                 la.type = "text/javascript";
                 la.async = true;
-                la.src = "https://js.users.51.la/你的ID.js";
+                la.src = "https://js.users.51.la/22002147.js";
                 var s = document.getElementsByTagName("script")[0];
                 s.parentNode.insertBefore(la, s);
               })();
