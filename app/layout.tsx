@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Script } from 'next/script';
+import Script from 'next/script'; // ✅ 注意：这里是 default import，没有花括号！
 
 export default function RootLayout({
   children,
@@ -7,11 +7,11 @@ export default function RootLayout({
   children: ReactNode;
 }) {
   return (
-    <html lang="zh-CN"> {/* 支持中文 */}
+    <html lang="zh-CN">
       <body>
         {children}
 
-        {/* 👇 51.la 统计代码 - 请替换 "你的ID" 为真实站点ID */}
+        {/* 51.la 网站统计代码 - 替换两处 "你的51la站点ID" 为真实ID */}
         <Script
           id="51-la-analytics"
           strategy="afterInteractive"
